@@ -1,0 +1,12 @@
+**/build/*
+**/bin/*
+**/lib/*
+**/config/*
+**/cmake-build-debug/*
+config/*
+**/.idea
+data/
+.DS_Store
+*.o
+*.log
+**/cmake-build-debug
