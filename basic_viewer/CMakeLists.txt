@@ -36,7 +36,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
 
 #find_package(OpenCV 3.1.0 REQUIRED PATHS /home/nvidia/Documents/opencv_build/share/OpenCV NO_DEFAULT_PATH)
-find_package(OpenCV 3.1.0 REQUIRED PATHS /home/cv-bhlab/Documents/Libraries/opencv/opencv_3_4_nonfree/install/share/OpenCV NO_DEFAULT_PATH)
+find_package(OpenCV 3.1.0 REQUIRED PATHS /home/hopkinsonlab/Documents/Libraries/OpenCV/OpenCV_3_4/install/share/OpenCV NO_DEFAULT_PATH)
 
 add_executable(basic_viewer src/basic_viewer.cpp)
 target_link_libraries(basic_viewer 

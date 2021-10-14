@@ -5,6 +5,7 @@
 **/cmake-build-debug/*
 config/*
 **/.idea
+**/data
 data/
 .DS_Store
 *.o
